@@ -1,0 +1,224 @@
+.rap{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+h2{
+	color:#ffffff;
+	text-shadow: 2px 2px 2px black, 0 0 1em black;
+	font-family:Calibri;
+	font-weight: 10px;
+	position:absolute;
+	margin-top: 0px;
+}
+
+header{
+	margin-left: 20px;
+	width: 1000px;
+	height: 119px;
+	//margin: 0 auto;
+	margin-top: 10px;
+}
+
+.block1, .block2, .block3{
+	width: 111px;
+	height: 99px;
+	background: #777777;
+	padding: 5px;
+	float: left;
+}
+
+.block2{
+	margin-left: 24px;
+	width: 270px;
+}
+
+.block3{
+	margin-left: 23px;
+	width: 495px;
+}
+
+.content{
+	width: 1000px;
+	//margin: 0 auto;
+}
+
+p, ul{
+	color: #ffffff;
+	text-align:right;
+	font-family:Arial;
+	font-size:14px;
+	line-height:22px;
+}
+
+#contact{
+	text-decoration:underline;
+}
+
+aside{
+	display: table-cell;
+	margin-left: 20px;
+	width: 210px;
+	//margin: 0 auto;
+	position: relative;
+}
+
+ul{
+	padding-top: 12px;
+	padding-left: 10px;
+	list-style: none;
+	width: 175px;
+	background: #777777;
+	margin-top: 12px;
+	padding-bottom: 12px;
+	text-align:left;
+}
+
+main{
+	display: table-cell;
+	width: 750px;
+	margin-top: 10px;
+
+}
+
+.row{
+	display: table;
+    width: 100%;
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#row > div,
+#row > noindex > div {
+    display: table-cell;
+    vertical-align: top;
+    width: auto;
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+}
+
+
+
+
+.block5{
+	margin-top: 1px;
+	padding: 6px;
+	background: #DCDCDC;
+	height: 200px;
+	width: 730px;
+}
+
+.block6_1, .block6{
+	width: 123px;
+	height: 150px;
+	background: #dcdcdc;
+	margin-top: 20px;
+	padding: 5px;
+	float: left;
+}
+
+.block6{
+	margin-left: 20px;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+
+footer{
+	margin-left: 20px;
+	width: 1000px;
+	height: 100px;
+	//margin: 0 auto;
+	margin-top: 20px;
+}
+
+.block10, .block11, .block12, .block13{
+	width: 290px;
+	height: 130px;
+	background: #777777;
+	padding: 5px;
+	float: left;
+}
+
+.block11{
+	margin-left: 20px;
+}
+
+.block12, .block13{
+	margin-left: 20px;
+	width: 305px;
+	height: 55px;
+}
+
+.block13{
+	margin-top: 10px;
+}
+
+hr{
+	width:950px;
+}
+
+
+#columns {
+	margin-top: 10px;
+	color: #757575;
+    display: table;
+    width: 765px;
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+    margin-right: 0;
+}
+
+#columns > div,
+#columns > noindex > div {
+    display: table-cell;
+    vertical-align: top;
+
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+}
+
+
+ #center, #right{
+ 	word-wrap: break-word;
+ 	min-width: 175px;
+ 	max-width: 175px;
+	overflow: hidden;
+	background: #777777;
+	border-style: solid;
+	border-color: white;
+	border-width: 20px;
+	border-left: 0px;
+	border-bottom: 0px;
+
+	text-align: justify;
+	padding: 20px;
+	background: #dcdcdc;
+
+	width: 400px;
+	width: fixed;
+
+	font-family:Arial;
+	font-size:14px;
+	line-height:22px;
+}
+
+.block7{
+	padding: 10px;
+	//position: absolute;
+	//margin-top: 480px;
+	width: 170px;
+	background: #777777;
+	text-align:justify;
+	position: absolute;
+	bottom: 0px;
+}
+
+
+#table{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	display: table;
+}
