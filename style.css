@@ -70,15 +70,13 @@ span{
 header{
 	width: 960px;
 	height: 118px;
-	margin-top: 24px;
-	//margin-left: 20px;	
+	margin-top: 24px;	
 }
 
 .block1, .block2, .block3{
 	width: 122px;
 	height: 107px;
 	background: #777777;
-	//padding: 5px;
 	float: left;
 }
 
@@ -95,10 +93,6 @@ header{
 	margin-left: 23px;	
 }
 
-.content{
-	//width: 1000px;
-}
-
 .contact{
 	font-family:Arial;
 	font-size:14px;
@@ -113,7 +107,6 @@ header{
 
 aside{
 	display: table-cell;
-	//width: 210px;
 	position: relative;
 	overflow: hidden;
 }
@@ -121,7 +114,6 @@ aside{
 ul.menu{
 	border-top: 13px solid #777777;
 	width: 170px;
-	//padding-top: 13px;
 	padding-left: 14px;
 	padding-bottom: 12px;
 	background: #777777;
@@ -146,12 +138,10 @@ a.active {
 
 main{
 	display: table-cell;
-	//width: 750px;
 }
 
 .row{
 	display: table;
-    //width: 100%;
     margin-left: 0;
     margin-right: 0;
 }
@@ -187,7 +177,6 @@ main{
 	height: 152px;
 	background: #dcdcdc;
 	margin-top: 20px;
-	//padding: 5px;
 	float: left;
 	overflow: hidden;
 	margin-left: 20px;
@@ -207,13 +196,6 @@ margin-left: 22px;
 
 .clear{
 	clear: both;
-}
-
-footer{
-	//margin-left: 20px;
-	//width: 1000px;
-	//height: 200px;
-	//margin-top: 20px;
 }
 
 .block10, .block11, .block12, .block13{
@@ -271,9 +253,6 @@ table{
 	height: 71px;
 }
 
-hr{
-	//width:1000px;
-}
 
 #hr2{
 	margin-top:26px;
@@ -307,7 +286,6 @@ hr{
 	border-width: 20px;
 	border-bottom: 0px;
 
-	//text-align: justify;	
 	font-family:Arial;
 	font-size:14px;
 	line-height:22px;
@@ -324,7 +302,6 @@ hr{
 	height: 132px;
 	position: absolute;
 	width: 184px;
-	//padding: 10px;
 	background: #777777;	
 	bottom: 0px;
 	text-align:justify;
@@ -332,9 +309,7 @@ hr{
 }
 
 #table{
-	display: table;
-	//margin-left: 20px;
-	//margin-bottom: 20px;	
+	display: table;	
 }
 
 #b1{
