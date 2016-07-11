@@ -1,23 +1,23 @@
 .rap{
-	margin: 0 auto;
 	width: 1000px;
+	margin: 0 auto;	
 }
 
-h2{
+span{
+	font-family:Calibri;
+	font-size: 25px;
+	font-weight: 10px;
 	color:#ffffff;
 	text-shadow: 2px 2px 2px black, 0 0 1em black;
-	font-family:Calibri;
-	font-weight: 10px;
 	position:absolute;
-	margin-top: 0px;
+	margin-top: 5px;
 }
 
 header{
-	margin-left: 20px;
 	width: 1000px;
 	height: 119px;
-	//margin: 0 auto;
 	margin-top: 10px;
+	margin-left: 20px;	
 }
 
 .block1, .block2, .block3{
@@ -29,62 +29,69 @@ header{
 }
 
 .block2{
-	margin-left: 24px;
 	width: 270px;
+	margin-left: 24px;	
 }
 
 .block3{
-	margin-left: 23px;
 	width: 495px;
+	margin-left: 23px;	
 }
 
 .content{
 	width: 1000px;
-	//margin: 0 auto;
-}
-
-p, ul{
-	color: #ffffff;
-	text-align:right;
-	font-family:Arial;
-	font-size:14px;
-	line-height:22px;
 }
 
 #contact{
+	font-family:Arial;
+	font-size:14px;
+	line-height:22px;
+	color: #ffffff;
+	text-align: right;
+}
+
+#link{
 	text-decoration:underline;
 }
 
 aside{
 	display: table-cell;
-	margin-left: 20px;
 	width: 210px;
-	//margin: 0 auto;
 	position: relative;
+	overflow: hidden;
 }
 
-ul{
-	padding-top: 12px;
-	padding-left: 10px;
-	list-style: none;
+ul.menu{
 	width: 175px;
-	background: #777777;
-	margin-top: 12px;
+	padding-top: 6px;
+	padding-left: 10px;
 	padding-bottom: 12px;
-	text-align:left;
+	background: #777777;
+	
+	color: #ffffff;
+	font-family:Arial;
+	font-size:14px;
+	line-height:22px;
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:active{
+font-weight: bold;
 }
 
 main{
 	display: table-cell;
 	width: 750px;
-	margin-top: 10px;
-
 }
 
 .row{
 	display: table;
     width: 100%;
-    box-sizing: border-box;  /* не поддерживается в CSS2 */
     margin-left: 0;
     margin-right: 0;
 }
@@ -92,29 +99,30 @@ main{
 #row > div,
 #row > noindex > div {
     display: table-cell;
-    vertical-align: top;
     width: auto;
-    box-sizing: border-box;  /* не поддерживается в CSS2 */
+    vertical-align: top;   
 }
-
-
-
 
 .block5{
-	margin-top: 1px;
+	width: 730px;
 	padding: 6px;
 	background: #DCDCDC;
-	height: 200px;
-	width: 730px;
+	
+	font-family:Arial;
+	font-size:14px;
+	line-height:22px;
+	color: #757575;
+	overflow: hidden;
 }
 
-.block6_1, .block6{
+.block6_1, .block6{	
 	width: 123px;
 	height: 150px;
 	background: #dcdcdc;
 	margin-top: 20px;
 	padding: 5px;
 	float: left;
+	overflow: hidden;
 }
 
 .block6{
@@ -125,33 +133,45 @@ main{
 	clear: both;
 }
 
-
-
-
 footer{
 	margin-left: 20px;
 	width: 1000px;
-	height: 100px;
-	//margin: 0 auto;
+	height: 200px;
 	margin-top: 20px;
 }
 
 .block10, .block11, .block12, .block13{
-	width: 290px;
-	height: 130px;
+	width: 285px;
+	height: 160px;
 	background: #777777;
 	padding: 5px;
+	padding-left: 10px;
+
+	font-family:Arial;
+	font-size:14px;
+	line-height:22px;
+	color: white;
 	float: left;
+	overflow: hidden;
+}
+
+table{
+	width: 100%;
+}
+td{
+	width: 50%;
 }
 
 .block11{
+	list-style-type: square;
 	margin-left: 20px;
+	padding-left: 20px;
 }
 
 .block12, .block13{
-	margin-left: 20px;
 	width: 305px;
-	height: 55px;
+	height: 70px;
+	margin-left: 20px;
 }
 
 .block13{
@@ -162,63 +182,48 @@ hr{
 	width:950px;
 }
 
-
 #columns {
-	margin-top: 10px;
+	width: 765px;
 	color: #757575;
-    display: table;
-    width: 765px;
-    box-sizing: border-box;  /* не поддерживается в CSS2 */
-    margin-right: 0;
+    display: table;   
 }
 
 #columns > div,
 #columns > noindex > div {
     display: table-cell;
-    vertical-align: top;
-
-    box-sizing: border-box;  /* не поддерживается в CSS2 */
 }
 
-
  #center, #right{
- 	word-wrap: break-word;
  	min-width: 175px;
  	max-width: 175px;
-	overflow: hidden;
-	background: #777777;
+	padding: 20px;
+	background: #dcdcdc;
+
 	border-style: solid;
 	border-color: white;
 	border-width: 20px;
 	border-left: 0px;
 	border-bottom: 0px;
 
-	text-align: justify;
-	padding: 20px;
-	background: #dcdcdc;
-
-	width: 400px;
-	width: fixed;
-
+	text-align: justify;	
 	font-family:Arial;
 	font-size:14px;
 	line-height:22px;
+	overflow: hidden;
 }
 
 .block7{
-	padding: 10px;
-	//position: absolute;
-	//margin-top: 480px;
-	width: 170px;
-	background: #777777;
-	text-align:justify;
 	position: absolute;
+	width: 170px;
+	padding: 10px;
+	background: #777777;	
 	bottom: 0px;
+	text-align:justify;
+	overflow: hidden;
 }
 
-
 #table{
-	margin-left: 20px;
-	margin-bottom: 20px;
 	display: table;
+	margin-left: 20px;
+	margin-bottom: 20px;	
 }
